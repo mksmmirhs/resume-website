@@ -1,7 +1,11 @@
-import React from 'react';
+import Hero from './components/Hero';
 
 const App = () => {
-  return <div>React JS Resume Website</div>;
+  return (
+    <div>
+      <Hero />
+    </div>
+  );
 };
 
 export default App;
