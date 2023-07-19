@@ -71,7 +71,7 @@ export const social = [
 export const about = {
   title: 'About me',
   subtitle:
-    "I'm Justin Vaccaro and i do web design, Graphic Design, User Experiences. habitant et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet.",
+    'Hello! My name is Mohammed Merajul Islam, and I am a passionate MERN stack developer. With a solid foundation in electrical and electronics engineering, I have successfully transitioned into the exciting world of web development.',
   image: '',
 };
 
