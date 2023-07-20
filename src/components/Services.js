@@ -22,6 +22,7 @@ const Services = () => {
                 className="p-[30px] w-full max-w-[417px]
               flex flex-col lg:text-left text-center hover:bg-white hover:shadow-2xl
               cursor-crosshair transition-all"
+                key={index}
               >
                 {/* icons */}
                 <div
