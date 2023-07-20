@@ -41,7 +41,17 @@ const Header = () => {
             {nav.map((item, index) => {
               return (
                 <li className="cursor-pointer" key={index}>
-                  {item.name}
+                  <Link
+                    to={item.name}
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    className="transition-all"
+                  >
+                    {item.name}
+                  </Link>
                 </li>
               );
             })}
